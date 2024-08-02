@@ -13,10 +13,8 @@
 		DC751DE22C5B7F5C002F33CD /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC751DE12C5B7F5C002F33CD /* ChatModel.swift */; };
 		DC751DE42C5B8299002F33CD /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC751DE32C5B8299002F33CD /* ChatTableViewCell.swift */; };
 		DC75D5DA2C5A0E7F00260267 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75D5D92C5A0E7F00260267 /* TodoItem.swift */; };
-		DC75D5DD2C5A0F4D00260267 /* TodoDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75D5DC2C5A0F4D00260267 /* TodoDB.swift */; };
 		DC75D5DF2C5A11EE00260267 /* FirestoreDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75D5DE2C5A11EE00260267 /* FirestoreDatabase.swift */; };
 		DC75D5E22C5A207B00260267 /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75D5E12C5A207B00260267 /* TodoViewModel.swift */; };
-		DC75D5E42C5A31EF00260267 /* TodoViewModel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75D5E32C5A31EF00260267 /* TodoViewModel+Extension.swift */; };
 		DC75D5E72C5A34CA00260267 /* TodoItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75D5E62C5A34CA00260267 /* TodoItemTableViewCell.swift */; };
 		DCDCBA422C5928F3002E6D02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDCBA412C5928F3002E6D02 /* AppDelegate.swift */; };
 		DCDCBA442C5928F3002E6D02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDCBA432C5928F3002E6D02 /* SceneDelegate.swift */; };
@@ -24,6 +22,7 @@
 		DCDCBA492C5928F3002E6D02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDCBA472C5928F3002E6D02 /* Main.storyboard */; };
 		DCDCBA4B2C5928F6002E6D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCDCBA4A2C5928F6002E6D02 /* Assets.xcassets */; };
 		DCDCBA4E2C5928F6002E6D02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDCBA4C2C5928F6002E6D02 /* LaunchScreen.storyboard */; };
+		DCF6ACB52C5CBB34005ADB80 /* RealtimeDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF6ACB42C5CBB34005ADB80 /* RealtimeDatabase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,10 +34,8 @@
 		DC751DE12C5B7F5C002F33CD /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
 		DC751DE32C5B8299002F33CD /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
 		DC75D5D92C5A0E7F00260267 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
-		DC75D5DC2C5A0F4D00260267 /* TodoDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDB.swift; sourceTree = "<group>"; };
 		DC75D5DE2C5A11EE00260267 /* FirestoreDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreDatabase.swift; sourceTree = "<group>"; };
 		DC75D5E12C5A207B00260267 /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
-		DC75D5E32C5A31EF00260267 /* TodoViewModel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoViewModel+Extension.swift"; sourceTree = "<group>"; };
 		DC75D5E62C5A34CA00260267 /* TodoItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemTableViewCell.swift; sourceTree = "<group>"; };
 		DCDCBA3E2C5928F3002E6D02 /* SampleTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDCBA412C5928F3002E6D02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +45,7 @@
 		DCDCBA4A2C5928F6002E6D02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCDCBA4D2C5928F6002E6D02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCDCBA4F2C5928F6002E6D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCF6ACB42C5CBB34005ADB80 /* RealtimeDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeDatabase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +96,7 @@
 		DC75D5D82C5A0E5600260267 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DC751DE12C5B7F5C002F33CD /* ChatModel.swift */,
 				DC75D5D92C5A0E7F00260267 /* TodoItem.swift */,
 			);
 			path = Model;
@@ -106,9 +105,8 @@
 		DC75D5DB2C5A0F2C00260267 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				DC75D5DC2C5A0F4D00260267 /* TodoDB.swift */,
 				DC75D5DE2C5A11EE00260267 /* FirestoreDatabase.swift */,
-				DC751DE12C5B7F5C002F33CD /* ChatModel.swift */,
+				DCF6ACB42C5CBB34005ADB80 /* RealtimeDatabase.swift */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -117,7 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				DC75D5E12C5A207B00260267 /* TodoViewModel.swift */,
-				DC75D5E32C5A31EF00260267 /* TodoViewModel+Extension.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -285,11 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCF6ACB52C5CBB34005ADB80 /* RealtimeDatabase.swift in Sources */,
 				DC75D5DF2C5A11EE00260267 /* FirestoreDatabase.swift in Sources */,
-				DC75D5DD2C5A0F4D00260267 /* TodoDB.swift in Sources */,
 				DC751DE22C5B7F5C002F33CD /* ChatModel.swift in Sources */,
 				DC75D5E72C5A34CA00260267 /* TodoItemTableViewCell.swift in Sources */,
-				DC75D5E42C5A31EF00260267 /* TodoViewModel+Extension.swift in Sources */,
 				DCDCBA462C5928F3002E6D02 /* ViewController.swift in Sources */,
 				DCDCBA422C5928F3002E6D02 /* AppDelegate.swift in Sources */,
 				DC75D5DA2C5A0E7F00260267 /* TodoItem.swift in Sources */,

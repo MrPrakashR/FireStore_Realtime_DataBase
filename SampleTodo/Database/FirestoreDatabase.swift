@@ -9,6 +9,14 @@ import Foundation
 import FirebaseFirestore
 import FirebaseFirestoreSwift
 
+protocol TodoDB {
+    func fetch(completion: @escaping ([TodoItem]) -> Void) -> Void
+    func add(usingTodoItem todoItem:TodoItem) -> Bool
+    func update(usingTodoItem todoItem:TodoItem) -> Void
+    func delete(usedId id:String) -> Void
+    func subscribe(completion: @escaping(TodoItem) -> Void,deletion: @escaping(TodoItem) -> Void) -> Void
+}
+
 class FirestoreDatabase {
     
     private let firebaseDb = Firestore.firestore()
@@ -19,6 +27,25 @@ class FirestoreDatabase {
 }
 
 extension FirestoreDatabase: TodoDB {
+    
+    func fetch(completion: @escaping ([TodoItem]) -> Void) {
+        firebaseDb.collection(todosCollection).getDocuments { (documentQuerySnapshot, error) in
+            guard error == nil,let documents = documentQuerySnapshot?.documents else { return }
+            
+            do {
+                
+                var todoList: [TodoItem] = []
+                for document in documents {
+                    todoList.append(try document.data(as: TodoItem.self))
+                }
+                
+                completion(todoList)
+                
+            } catch let error {
+                debugPrint(error)
+            }
+        }
+    }
     
     func add(usingTodoItem todoItem: TodoItem) -> Bool {
         
