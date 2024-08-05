@@ -7,17 +7,112 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "351B9D13-127E-4FDD-B871-3C2EEA5FDC17"
+            uuid = "843BB56F-791F-4E13-B9D0-58420CB2426B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SampleTodo/Database/RealtimeDatabase.swift"
+            filePath = "SampleTodo/Database/FirestoreDatabase.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
-            landmarkName = "subscribe(completion:deletion:)"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "fetch(completion:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "843BB56F-791F-4E13-B9D0-58420CB2426B - aef7c5c1f69a4f8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SampleTodo.FirestoreDatabase.fetch(completion: (Swift.Array&lt;SampleTodo.TodoItem&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SampleTodo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prautela/Desktop/MyAssignment/SampleTodo/SampleTodo/Database/FirestoreDatabase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "843BB56F-791F-4E13-B9D0-58420CB2426B - 6315dc3048719e1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SampleTodo.FirestoreDatabase.fetch(completion: (Swift.Array&lt;SampleTodo.TodoItem&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SampleTodo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prautela/Desktop/MyAssignment/SampleTodo/SampleTodo/Database/FirestoreDatabase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "843BB56F-791F-4E13-B9D0-58420CB2426B - aef7c5c1f69a4feb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SampleTodo.FirestoreDatabase.fetch(completion: (Swift.Array&lt;SampleTodo.TodoItem&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SampleTodo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prautela/Desktop/MyAssignment/SampleTodo/SampleTodo/Database/FirestoreDatabase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C8EF5A8-A741-49AB-BE12-35E77B24AD22"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleTodo/Database/FirestoreDatabase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "fetch(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0C8EF5A8-A741-49AB-BE12-35E77B24AD22 - aef7c5c1f69a4e0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SampleTodo.FirestoreDatabase.fetch(completion: (Swift.Array&lt;SampleTodo.TodoItem&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SampleTodo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prautela/Desktop/MyAssignment/SampleTodo/SampleTodo/Database/FirestoreDatabase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "408">
+               </Location>
+               <Location
+                  uuid = "0C8EF5A8-A741-49AB-BE12-35E77B24AD22 - aef7c5c1f69a4feb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SampleTodo.FirestoreDatabase.fetch(completion: (Swift.Array&lt;SampleTodo.TodoItem&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SampleTodo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prautela/Desktop/MyAssignment/SampleTodo/SampleTodo/Database/FirestoreDatabase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

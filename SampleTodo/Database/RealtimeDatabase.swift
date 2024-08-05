@@ -21,7 +21,7 @@ extension RealtimeDatabase : TodoDB {
     
     func fetch(completion: @escaping ([TodoItem]) -> Void) {
         
-        firebaseDb.child(todosRoot).queryOrderedByKey().observe(.value) { (snapshot) in
+        firebaseDb.child(todosRoot).queryOrderedByKey().observeSingleEvent(of: .value) { (snapshot) in
             if let snapShot = snapshot.children.allObjects as? [DataSnapshot] {
                 
                 var todoList : [TodoItem] = []

@@ -29,6 +29,7 @@ class FirestoreDatabase {
 extension FirestoreDatabase: TodoDB {
     
     func fetch(completion: @escaping ([TodoItem]) -> Void) {
+        
         firebaseDb.collection(todosCollection).getDocuments { (documentQuerySnapshot, error) in
             guard error == nil,let documents = documentQuerySnapshot?.documents else { return }
             

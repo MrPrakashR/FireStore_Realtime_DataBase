@@ -25,8 +25,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        viewModel = TodoViewModel(view: self,database: RealtimeDatabase.shared)
-        viewModel?.isRealTime = true
+//        viewModel = TodoViewModel(view: self,database: RealtimeDatabase.shared)
+//        viewModel?.isRealTime = true
+        
+        viewModel = TodoViewModel(view: self)
     }
     
 }

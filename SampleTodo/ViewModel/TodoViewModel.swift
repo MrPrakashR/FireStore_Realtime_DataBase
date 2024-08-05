@@ -31,6 +31,7 @@ class TodoViewModel {
     init(view:TodoView,database: TodoDB = FirestoreDatabase.shared) {
         self.view = view
         self.database = database
+        
         setup(database: database)
     }
     
